@@ -1,0 +1,76 @@
+body{
+  font-family: Arial;
+  font-weight: 400;
+}
+.App{
+  border: 12px solid orangered;
+  padding: 15px;
+}
+.header{
+  font-size: medium;
+  text-align: center;
+}
+.button{
+  background-color: antiquewhite;
+  padding: 6px;
+  color: black;
+  margin: 15px;
+}
+
+.card{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 30px 30px 30px rgba(0,0, 0, 0.15);
+  background-color:#ffffff;
+  border: 5px solid black;
+  width: 660px; 
+  height: 780px;
+}
+  
+.imageone{
+  margin-bottom: 40px;
+  text-align: center;
+}
+.imageone img{
+  box-shadow: 30px 30px 30px rgba(0,0, 0, 0.115);
+  width: 50%;
+
+}
+.body_message{
+  width:590px ;
+  margin: 0 auto;
+}
+.body_message p{
+  font-family: 'Arial';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.card-title{
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-size: 35px;
+  position: relative;
+  top: 20px;
+  color: brown;
+}
+.skill_set{
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  
+}
+.skill_set .skill{
+  margin-top: 30px;
+}
+.skill{
+  text-align: center;
+}
+
+.skill li{
+  list-style: none;
+  font-family: 'Segoe UI';
+  font-size: 24px;
+  font-weight: 500;
+}
