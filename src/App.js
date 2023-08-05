@@ -1,6 +1,9 @@
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home'
+import Colorcircle from './pages/Colorcircle'
+import Navbar from './componenets/Navbar'
 
 
-import image from "./images/2_thumb_up_man_1.webp"
 
 // const data = [
 //   {
@@ -1717,7 +1720,13 @@ function App() {
 
   return(
     <div>
-      <CardImage/>
+         <>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Colorcircle" element={<Colorcircle />} />
+      </Routes>
+      </>
     </div>
   )
   // const key = 123
@@ -1761,21 +1770,3 @@ function App() {
 
 export default App;
 
-const CardImage = ()=>{
-  return(
-  <div className='card'>
-    <div className='imageone'>
-       <img src={image} class="card-img-top" alt="..."/>
-    </div>
-    <div className='body_message'><p>Pull in Bootstrap’s source files into nearly any project with some of the most popular package managers. No matter the package manager, Bootstrap will require a Sass compiler and Autoprefixer for a setup that matches our official compiled versions. Some quick example text to build on the Ncard title and make up the bulk of the card's content.</p></div>
-    <div className='skill_set'>
-      <div class="card-title"><h5 >Skills</h5></div>
-      <div className='skill'>
-        <li>Mobile Developer</li>
-        <li>Backend Developer</li>
-        <li>Frontend Developer</li>
-      </div>
-    </div>
- </div>
-  )
-}
