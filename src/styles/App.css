@@ -50,15 +50,19 @@ body{
 .card-title{
   text-align: center;
   font-family: 'Segoe UI';
-  font-size: 35px;
   position: relative;
   top: 20px;
+
+}
+.card-title h5{
+  font-size: 30px;
   color: brown;
+  font-weight: 700;
 }
 .skill_set{
   text-align: center;
   position: relative;
-  bottom: 50px;
+  bottom: 17px;
   
 }
 .skill_set .skill{
